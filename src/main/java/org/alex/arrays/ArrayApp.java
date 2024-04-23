@@ -20,7 +20,7 @@ public class ArrayApp {
         nElems = 10;    // now 10 items in array
 
         for (j=0; j<nElems; j++) { // Display itenms
-            System.out.println(arr.getElement(j) + " ");
+            System.out.print(arr.getElement(j) + " ");
         }
 
         System.out.println(" ");
@@ -50,7 +50,7 @@ public class ArrayApp {
         nElems--;
 
         for (j=0; j<nElems; j++) { // Display elements
-            System.out.println(arr.getElement(j) + " ");
+            System.out.print(arr.getElement(j) + " ");
         }
         System.out.println(" ");
     }
